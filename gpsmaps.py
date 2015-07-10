@@ -290,7 +290,7 @@ class positions(models.Model):
                     
         return True
         # return vals        
-        """
+        
     
     address = fields.Char('Calle', size=150)
     altitude = fields.Float('Altura', digits=(6, 2))
@@ -385,4 +385,4 @@ class vehicle(models.Model):
     
     stop_mail = fields.Integer('Mail por parada')
     start_mail = fields.Integer('Mail por inicio')
-    """
+    
